@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: taller-green-code
+Version: 1.0.0
+Summary: Taller practico de Green Code: optimizacion energetica de software
+Requires-Python: >=3.10
+Provides-Extra: test
+Requires-Dist: pytest>=7.4.0; extra == "test"

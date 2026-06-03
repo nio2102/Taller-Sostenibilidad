@@ -1,0 +1,15 @@
+[project]
+name = "taller-green-code"
+version = "1.0.0"
+description = "Taller practico de Green Code: optimizacion energetica de software"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
